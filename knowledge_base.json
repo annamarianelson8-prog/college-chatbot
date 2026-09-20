@@ -8,96 +8,631 @@
     "address": "Horizon Campus, Outer Ring Road, Bengaluru, Karnataka - 560103"
   },
   "facts": [
-    {"predicate": "admission_deadline", "args": [], "value": "15 July 2026"},
-    {"predicate": "admission_documents", "args": [], "value": "10th mark sheet, 12th mark sheet, transfer certificate, ID proof, passport photos"},
-    {"predicate": "admission_eligibility", "args": [], "value": "Pass 12th with minimum 50% aggregate (45% for reserved categories)"},
-    {"predicate": "admission_process", "args": [], "value": "Apply online at hce.edu.in/admissions, submit documents, attend counselling, pay fees to confirm seat"},
-    {"predicate": "course_duration", "args": ["BTech", "CSE"], "value": "4 years (8 semesters)"},
-    {"predicate": "course_duration", "args": ["BTech", "ECE"], "value": "4 years (8 semesters)"},
-    {"predicate": "course_duration", "args": ["BTech", "ME"], "value": "4 years (8 semesters)"},
-    {"predicate": "course_duration", "args": ["BCA"], "value": "3 years (6 semesters)"},
-    {"predicate": "course_duration", "args": ["MCA"], "value": "2 years (4 semesters)"},
-    {"predicate": "course_seats", "args": ["BTech", "CSE"], "value": "120 seats per year"},
-    {"predicate": "course_seats", "args": ["BTech", "ECE"], "value": "60 seats per year"},
-    {"predicate": "course_seats", "args": ["BTech", "ME"], "value": "60 seats per year"},
-    {"predicate": "course_seats", "args": ["BCA"], "value": "60 seats per year"},
-    {"predicate": "fee", "args": ["BTech", "Y1"], "value": "85000", "unit": "INR/year"},
-    {"predicate": "fee", "args": ["BTech", "Y2"], "value": "82000", "unit": "INR/year"},
-    {"predicate": "fee", "args": ["BTech", "Y3"], "value": "82000", "unit": "INR/year"},
-    {"predicate": "fee", "args": ["BTech", "Y4"], "value": "80000", "unit": "INR/year"},
-    {"predicate": "fee", "args": ["BCA", "Y1"], "value": "55000", "unit": "INR/year"},
-    {"predicate": "fee", "args": ["BCA", "Y2"], "value": "52000", "unit": "INR/year"},
-    {"predicate": "fee", "args": ["BCA", "Y3"], "value": "52000", "unit": "INR/year"},
-    {"predicate": "fee", "args": ["hostel"], "value": "45000", "unit": "INR/year"},
-    {"predicate": "fee", "args": ["exam"], "value": "1500", "unit": "INR/semester"},
-    {"predicate": "fee", "args": ["bus"], "value": "12000", "unit": "INR/year"},
-    {"predicate": "exam_midterm_month", "args": [], "value": "October"},
-    {"predicate": "exam_endsem_month", "args": [], "value": "December and May"},
-    {"predicate": "exam_revaluation_deadline", "args": [], "value": "Within 7 days of result publication"},
-    {"predicate": "exam_supplementary", "args": [], "value": "Supplementary exams held in July for failed subjects"},
-    {"predicate": "exam_attendance_rule", "args": [], "value": "Minimum 75% attendance required to appear for end semester exams"},
-    {"predicate": "hostel_eligibility", "args": [], "value": "Students residing more than 25 km from college; first-come first-served basis"},
-    {"predicate": "hostel_rules", "args": [], "value": "No smoking/alcohol; 10 PM curfew on weekdays; visitors allowed 4-6 PM on Sundays"},
-    {"predicate": "hostel_facilities", "args": [], "value": "Wi-Fi, mess (veg/non-veg), laundry, study room, 24/7 security"},
-    {"predicate": "hostel_rooms", "args": [], "value": "2-sharing and 3-sharing rooms available"},
-    {"predicate": "faculty_hod", "args": ["CSE"], "value": "Dr. Rajesh Sharma (Ph.D., 15 years experience)"},
-    {"predicate": "faculty_hod_email", "args": ["CSE"], "value": "cse.hod@hce.edu.in"},
-    {"predicate": "faculty_hod", "args": ["ECE"], "value": "Dr. Priya Menon (Ph.D., 12 years experience)"},
-    {"predicate": "faculty_hod_email", "args": ["ECE"], "value": "ece.hod@hce.edu.in"},
-    {"predicate": "faculty_hod", "args": ["ME"], "value": "Dr. Anil Kumar (Ph.D., 18 years experience)"},
-    {"predicate": "faculty_hod_email", "args": ["ME"], "value": "me.hod@hce.edu.in"},
-    {"predicate": "library_hours", "args": ["weekday"], "value": "8:00 AM - 6:00 PM"},
-    {"predicate": "library_hours", "args": ["saturday"], "value": "9:00 AM - 1:00 PM"},
-    {"predicate": "library_hours", "args": ["sunday"], "value": "Closed"},
-    {"predicate": "library_books", "args": [], "value": "Over 25,000 books and 50+ journal subscriptions"},
-    {"predicate": "library_digital", "args": [], "value": "IEEE, ACM, and NPTEL access via institutional login"},
-    {"predicate": "event_name", "args": ["tech_fest"], "value": "TechnoVision"},
-    {"predicate": "event_date", "args": ["tech_fest"], "value": "February 15-17, 2026"},
-    {"predicate": "event_name", "args": ["cultural_fest"], "value": "Rhythm"},
-    {"predicate": "event_date", "args": ["cultural_fest"], "value": "March 10-12, 2026"},
-    {"predicate": "event_name", "args": ["sports_day"], "value": "HCE Sports Meet"},
-    {"predicate": "event_date", "args": ["sports_day"], "value": "January 20, 2026"},
-    {"predicate": "placement_rate", "args": [], "value": "85% placement rate in 2025 batch"},
-    {"predicate": "placement_companies", "args": [], "value": "TCS, Infosys, Wipro, Cognizant, Amazon, Microsoft (internships)"},
-    {"predicate": "scholarship_merit", "args": [], "value": "Merit scholarship: 90%+ in 12th gets 25% fee waiver in first year"},
-    {"predicate": "scholarship_sports", "args": [], "value": "Sports quota: state/national level players eligible for fee concession"},
-    {"predicate": "scholarship_eligibility", "args": [], "value": "Merit: 90%+ in 12th; Sports: state/national certificate; Income: family income below 2.5 LPA"},
-    {"predicate": "campus_wifi", "args": [], "value": "Free campus Wi-Fi for all registered students"},
-    {"predicate": "lab_facilities", "args": [], "value": "Computer labs, electronics lab, mechanical workshop, AI/ML lab"},
-    {"predicate": "internship_support", "args": [], "value": "Training and Placement Cell assists with summer internships from 3rd year"},
-    {"predicate": "anti_ragging", "args": [], "value": "Zero-tolerance anti-ragging policy; 24/7 helpline: +91-9876543299"},
-    {"predicate": "nss_ncc", "args": [], "value": "NSS and NCC units active; participation earns activity points"},
-    {"predicate": "cafeteria", "args": [], "value": "Cafeteria open 8 AM - 7 PM; affordable meals available"},
-    {"predicate": "medical", "args": [], "value": "On-campus medical room with nurse; tie-up with City Hospital for emergencies"}
+    {
+      "predicate": "admission_deadline",
+      "args": [],
+      "value": "15 July 2026"
+    },
+    {
+      "predicate": "admission_documents",
+      "args": [],
+      "value": "10th mark sheet, 12th mark sheet, transfer certificate, ID proof, passport photos"
+    },
+    {
+      "predicate": "admission_eligibility",
+      "args": [],
+      "value": "Pass 12th with minimum 50% aggregate (45% for reserved categories)"
+    },
+    {
+      "predicate": "admission_process",
+      "args": [],
+      "value": "Apply online at hce.edu.in/admissions, submit documents, attend counselling, pay fees to confirm seat"
+    },
+    {
+      "predicate": "course_duration",
+      "args": [
+        "BTech",
+        "CSE"
+      ],
+      "value": "4 years (8 semesters)"
+    },
+    {
+      "predicate": "course_duration",
+      "args": [
+        "BTech",
+        "ECE"
+      ],
+      "value": "4 years (8 semesters)"
+    },
+    {
+      "predicate": "course_duration",
+      "args": [
+        "BTech",
+        "ME"
+      ],
+      "value": "4 years (8 semesters)"
+    },
+    {
+      "predicate": "course_duration",
+      "args": [
+        "BCA"
+      ],
+      "value": "3 years (6 semesters)"
+    },
+    {
+      "predicate": "course_duration",
+      "args": [
+        "MCA"
+      ],
+      "value": "2 years (4 semesters)"
+    },
+    {
+      "predicate": "course_seats",
+      "args": [
+        "BTech",
+        "CSE"
+      ],
+      "value": "120 seats per year"
+    },
+    {
+      "predicate": "course_seats",
+      "args": [
+        "BTech",
+        "ECE"
+      ],
+      "value": "60 seats per year"
+    },
+    {
+      "predicate": "course_seats",
+      "args": [
+        "BTech",
+        "ME"
+      ],
+      "value": "60 seats per year"
+    },
+    {
+      "predicate": "course_seats",
+      "args": [
+        "BCA"
+      ],
+      "value": "60 seats per year"
+    },
+    {
+      "predicate": "fee",
+      "args": [
+        "BTech",
+        "Y1"
+      ],
+      "value": "85000",
+      "unit": "INR/year"
+    },
+    {
+      "predicate": "fee",
+      "args": [
+        "BTech",
+        "Y2"
+      ],
+      "value": "82000",
+      "unit": "INR/year"
+    },
+    {
+      "predicate": "fee",
+      "args": [
+        "BTech",
+        "Y3"
+      ],
+      "value": "82000",
+      "unit": "INR/year"
+    },
+    {
+      "predicate": "fee",
+      "args": [
+        "BTech",
+        "Y4"
+      ],
+      "value": "80000",
+      "unit": "INR/year"
+    },
+    {
+      "predicate": "fee",
+      "args": [
+        "BCA",
+        "Y1"
+      ],
+      "value": "55000",
+      "unit": "INR/year"
+    },
+    {
+      "predicate": "fee",
+      "args": [
+        "BCA",
+        "Y2"
+      ],
+      "value": "52000",
+      "unit": "INR/year"
+    },
+    {
+      "predicate": "fee",
+      "args": [
+        "BCA",
+        "Y3"
+      ],
+      "value": "52000",
+      "unit": "INR/year"
+    },
+    {
+      "predicate": "fee",
+      "args": [
+        "hostel"
+      ],
+      "value": "45000",
+      "unit": "INR/year"
+    },
+    {
+      "predicate": "fee",
+      "args": [
+        "exam"
+      ],
+      "value": "1500",
+      "unit": "INR/semester"
+    },
+    {
+      "predicate": "fee",
+      "args": [
+        "bus"
+      ],
+      "value": "12000",
+      "unit": "INR/year"
+    },
+    {
+      "predicate": "exam_midterm_month",
+      "args": [],
+      "value": "October"
+    },
+    {
+      "predicate": "exam_endsem_month",
+      "args": [],
+      "value": "December and May"
+    },
+    {
+      "predicate": "exam_revaluation_deadline",
+      "args": [],
+      "value": "Within 7 days of result publication"
+    },
+    {
+      "predicate": "exam_supplementary",
+      "args": [],
+      "value": "Supplementary exams held in July for failed subjects"
+    },
+    {
+      "predicate": "exam_attendance_rule",
+      "args": [],
+      "value": "Minimum 75% attendance required to appear for end semester exams"
+    },
+    {
+      "predicate": "hostel_eligibility",
+      "args": [],
+      "value": "Students residing more than 25 km from college; first-come first-served basis"
+    },
+    {
+      "predicate": "hostel_rules",
+      "args": [],
+      "value": "No smoking/alcohol; 10 PM curfew on weekdays; visitors allowed 4-6 PM on Sundays"
+    },
+    {
+      "predicate": "hostel_facilities",
+      "args": [],
+      "value": "Wi-Fi, mess (veg/non-veg), laundry, study room, 24/7 security"
+    },
+    {
+      "predicate": "hostel_rooms",
+      "args": [],
+      "value": "2-sharing and 3-sharing rooms available"
+    },
+    {
+      "predicate": "faculty_hod",
+      "args": [
+        "CSE"
+      ],
+      "value": "Dr. Rajesh Sharma (Ph.D., 15 years experience)"
+    },
+    {
+      "predicate": "faculty_hod_email",
+      "args": [
+        "CSE"
+      ],
+      "value": "cse.hod@hce.edu.in"
+    },
+    {
+      "predicate": "faculty_hod",
+      "args": [
+        "ECE"
+      ],
+      "value": "Dr. Priya Menon (Ph.D., 12 years experience)"
+    },
+    {
+      "predicate": "faculty_hod_email",
+      "args": [
+        "ECE"
+      ],
+      "value": "ece.hod@hce.edu.in"
+    },
+    {
+      "predicate": "faculty_hod",
+      "args": [
+        "ME"
+      ],
+      "value": "Dr. Anil Kumar (Ph.D., 18 years experience)"
+    },
+    {
+      "predicate": "faculty_hod_email",
+      "args": [
+        "ME"
+      ],
+      "value": "me.hod@hce.edu.in"
+    },
+    {
+      "predicate": "library_hours",
+      "args": [
+        "weekday"
+      ],
+      "value": "8:00 AM - 6:00 PM"
+    },
+    {
+      "predicate": "library_hours",
+      "args": [
+        "saturday"
+      ],
+      "value": "9:00 AM - 1:00 PM"
+    },
+    {
+      "predicate": "library_hours",
+      "args": [
+        "sunday"
+      ],
+      "value": "Closed"
+    },
+    {
+      "predicate": "library_books",
+      "args": [],
+      "value": "Over 25,000 books and 50+ journal subscriptions"
+    },
+    {
+      "predicate": "library_digital",
+      "args": [],
+      "value": "IEEE, ACM, and NPTEL access via institutional login"
+    },
+    {
+      "predicate": "event_name",
+      "args": [
+        "tech_fest"
+      ],
+      "value": "TechnoVision"
+    },
+    {
+      "predicate": "event_date",
+      "args": [
+        "tech_fest"
+      ],
+      "value": "February 15-17, 2026"
+    },
+    {
+      "predicate": "event_name",
+      "args": [
+        "cultural_fest"
+      ],
+      "value": "Rhythm"
+    },
+    {
+      "predicate": "event_date",
+      "args": [
+        "cultural_fest"
+      ],
+      "value": "March 10-12, 2026"
+    },
+    {
+      "predicate": "event_name",
+      "args": [
+        "sports_day"
+      ],
+      "value": "HCE Sports Meet"
+    },
+    {
+      "predicate": "event_date",
+      "args": [
+        "sports_day"
+      ],
+      "value": "January 20, 2026"
+    },
+    {
+      "predicate": "placement_rate",
+      "args": [],
+      "value": "85% placement rate in 2025 batch"
+    },
+    {
+      "predicate": "placement_companies",
+      "args": [],
+      "value": "TCS, Infosys, Wipro, Cognizant, Amazon, Microsoft (internships)"
+    },
+    {
+      "predicate": "scholarship_merit",
+      "args": [],
+      "value": "Merit scholarship: 90%+ in 12th gets 25% fee waiver in first year"
+    },
+    {
+      "predicate": "scholarship_sports",
+      "args": [],
+      "value": "Sports quota: state/national level players eligible for fee concession"
+    },
+    {
+      "predicate": "scholarship_eligibility",
+      "args": [],
+      "value": "Merit: 90%+ in 12th; Sports: state/national certificate; Income: family income below 2.5 LPA"
+    },
+    {
+      "predicate": "campus_wifi",
+      "args": [],
+      "value": "Free campus Wi-Fi for all registered students"
+    },
+    {
+      "predicate": "lab_facilities",
+      "args": [],
+      "value": "Computer labs, electronics lab, mechanical workshop, AI/ML lab"
+    },
+    {
+      "predicate": "internship_support",
+      "args": [],
+      "value": "Training and Placement Cell assists with summer internships from 3rd year"
+    },
+    {
+      "predicate": "anti_ragging",
+      "args": [],
+      "value": "Zero-tolerance anti-ragging policy; 24/7 helpline: +91-9876543299"
+    },
+    {
+      "predicate": "nss_ncc",
+      "args": [],
+      "value": "NSS and NCC units active; participation earns activity points"
+    },
+    {
+      "predicate": "cafeteria",
+      "args": [],
+      "value": "Cafeteria open 8 AM - 7 PM; affordable meals available"
+    },
+    {
+      "predicate": "medical",
+      "args": [],
+      "value": "On-campus medical room with nurse; tie-up with City Hospital for emergencies"
+    }
   ],
   "rules": [
-    {"if": ["course(BTech)", "query_fee"], "then": "lookup_fee(BTech)"},
-    {"if": ["course(BCA)", "query_fee"], "then": "lookup_fee(BCA)"},
-    {"if": ["query_hostel", "distance_gt(25km)"], "then": "eligible_for_hostel(yes)"},
-    {"if": ["query_hostel", "distance_lte(25km)"], "then": "eligible_for_hostel(no)"},
-    {"if": ["query_scholarship", "marks_gte(90%)"], "then": "eligible_for_merit_scholarship(yes)"},
-    {"if": ["query_exam", "attendance_lt(75%)"], "then": "not_eligible_for_exam"},
-    {"if": ["query_exam", "attendance_gte(75%)"], "then": "eligible_for_exam"}
+    {
+      "if": [
+        "course(BTech)",
+        "query_fee"
+      ],
+      "then": "lookup_fee(BTech)"
+    },
+    {
+      "if": [
+        "course(BCA)",
+        "query_fee"
+      ],
+      "then": "lookup_fee(BCA)"
+    },
+    {
+      "if": [
+        "query_hostel",
+        "distance_gt(25km)"
+      ],
+      "then": "eligible_for_hostel(yes)"
+    },
+    {
+      "if": [
+        "query_hostel",
+        "distance_lte(25km)"
+      ],
+      "then": "eligible_for_hostel(no)"
+    },
+    {
+      "if": [
+        "query_scholarship",
+        "marks_gte(90%)"
+      ],
+      "then": "eligible_for_merit_scholarship(yes)"
+    },
+    {
+      "if": [
+        "query_exam",
+        "attendance_lt(75%)"
+      ],
+      "then": "not_eligible_for_exam"
+    },
+    {
+      "if": [
+        "query_exam",
+        "attendance_gte(75%)"
+      ],
+      "then": "eligible_for_exam"
+    }
   ],
   "graph": {
     "nodes": [
-      "root", "admission", "courses", "fees", "exams", "hostel", "faculty",
-      "library", "events", "contact", "placement", "scholarship",
-      "BTech", "BCA", "MCA", "CSE", "ECE", "ME", "Y1", "Y2", "Y3", "Y4",
-      "tech_fest", "cultural_fest", "sports_day"
+      "root",
+      "admission",
+      "courses",
+      "fees",
+      "exams",
+      "hostel",
+      "faculty",
+      "library",
+      "events",
+      "contact",
+      "placement",
+      "scholarship",
+      "BTech",
+      "BCA",
+      "MCA",
+      "CSE",
+      "ECE",
+      "ME",
+      "Y1",
+      "Y2",
+      "Y3",
+      "Y4",
+      "tech_fest",
+      "cultural_fest",
+      "sports_day"
     ],
     "edges": [
-      ["root", "admission"], ["root", "courses"], ["root", "fees"], ["root", "exams"],
-      ["root", "hostel"], ["root", "faculty"], ["root", "library"], ["root", "events"],
-      ["root", "contact"], ["root", "placement"], ["root", "scholarship"],
-      ["courses", "BTech"], ["courses", "BCA"], ["courses", "MCA"],
-      ["BTech", "CSE"], ["BTech", "ECE"], ["BTech", "ME"],
-      ["fees", "BTech"], ["fees", "BCA"], ["fees", "hostel"], ["fees", "exam"], ["fees", "bus"],
-      ["BTech", "Y1"], ["BTech", "Y2"], ["BTech", "Y3"], ["BTech", "Y4"],
-      ["BCA", "Y1"], ["BCA", "Y2"], ["BCA", "Y3"],
-      ["faculty", "CSE"], ["faculty", "ECE"], ["faculty", "ME"],
-      ["events", "tech_fest"], ["events", "cultural_fest"], ["events", "sports_day"],
-      ["exams", "hostel"], ["scholarship", "fees"]
+      [
+        "root",
+        "admission"
+      ],
+      [
+        "root",
+        "courses"
+      ],
+      [
+        "root",
+        "fees"
+      ],
+      [
+        "root",
+        "exams"
+      ],
+      [
+        "root",
+        "hostel"
+      ],
+      [
+        "root",
+        "faculty"
+      ],
+      [
+        "root",
+        "library"
+      ],
+      [
+        "root",
+        "events"
+      ],
+      [
+        "root",
+        "contact"
+      ],
+      [
+        "root",
+        "placement"
+      ],
+      [
+        "root",
+        "scholarship"
+      ],
+      [
+        "courses",
+        "BTech"
+      ],
+      [
+        "courses",
+        "BCA"
+      ],
+      [
+        "courses",
+        "MCA"
+      ],
+      [
+        "BTech",
+        "CSE"
+      ],
+      [
+        "BTech",
+        "ECE"
+      ],
+      [
+        "BTech",
+        "ME"
+      ],
+      [
+        "fees",
+        "BTech"
+      ],
+      [
+        "fees",
+        "BCA"
+      ],
+      [
+        "fees",
+        "hostel"
+      ],
+      [
+        "fees",
+        "exam"
+      ],
+      [
+        "fees",
+        "bus"
+      ],
+      [
+        "BTech",
+        "Y1"
+      ],
+      [
+        "BTech",
+        "Y2"
+      ],
+      [
+        "BTech",
+        "Y3"
+      ],
+      [
+        "BTech",
+        "Y4"
+      ],
+      [
+        "BCA",
+        "Y1"
+      ],
+      [
+        "BCA",
+        "Y2"
+      ],
+      [
+        "BCA",
+        "Y3"
+      ],
+      [
+        "faculty",
+        "CSE"
+      ],
+      [
+        "faculty",
+        "ECE"
+      ],
+      [
+        "faculty",
+        "ME"
+      ],
+      [
+        "events",
+        "tech_fest"
+      ],
+      [
+        "events",
+        "cultural_fest"
+      ],
+      [
+        "events",
+        "sports_day"
+      ],
+      [
+        "exams",
+        "hostel"
+      ],
+      [
+        "scholarship",
+        "fees"
+      ]
     ]
   },
   "responses": {
@@ -121,6 +656,449 @@
     "general_college": "{college_name} offers B.Tech, BCA, and MCA programs with modern labs, library, hostel, and strong placement support. Last updated: {last_updated}.",
     "general_facilities": "Campus Wi-Fi: {campus_wifi}. Anti-ragging: {anti_ragging}. Cafeteria: {cafeteria}. Medical: {medical}. NSS/NCC: {nss_ncc}. Labs: {lab_facilities}.",
     "general_labs": "Laboratory facilities: {lab_facilities}.",
-    "fallback": "I don't have specific information about that yet. Please contact the helpdesk at {phone} or {email} ({helpdesk_hours})."
+    "fallback": "I don't have specific information about that yet. Please contact the helpdesk at {phone} or {email} ({helpdesk_hours}).",
+    "courses_overview": "The college offers B.Tech, BCA, and MCA programs. B.Tech includes CSE, ECE, and ME in the current knowledge base.",
+    "course_me": "B.Tech ME: {course_duration_BTech_ME}, {course_seats_BTech_ME}.",
+    "admission_documents_detail": "For admission, the required documents are {admission_documents}.",
+    "admission_eligibility_detail": "Admission eligibility is {admission_eligibility}.",
+    "admission_process_detail": "The admission process is: {admission_process}.",
+    "fees_btech_all_years": "B.Tech fees are Rs. 85,000/year (Year 1), Rs. 82,000/year (Year 2), Rs. 82,000/year (Year 3), and Rs. 80,000/year (Year 4). Exam fee is Rs. 1,500/semester and bus fee is Rs. 12,000/year.",
+    "fees_bca_all_years": "BCA fees are Rs. 55,000/year (Year 1), Rs. 52,000/year (Year 2), and Rs. 52,000/year (Year 3).",
+    "exam_details": "Mid-semester exams are in {exam_midterm_month}. End-semester exams are in {exam_endsem_month}. Minimum attendance is {exam_attendance_rule}. Revaluation is {exam_revaluation_deadline}. Supplementary exams are held in {exam_supplementary}.",
+    "facilities_detail": "Campus facilities include {campus_wifi}. {lab_facilities}. {cafeteria}. {medical}. {nss_ncc}. {anti_ragging}."
+  },
+  "faq": [
+    {
+      "id": "college_name",
+      "questions": [
+        "What is the name of the college?",
+        "Tell me about the college",
+        "Which college is this?"
+      ],
+      "answer": "The college is {college_name}. It offers B.Tech, BCA, and MCA programs with modern labs, library, hostel, and placement support."
+    },
+    {
+      "id": "courses_overview",
+      "questions": [
+        "What courses are offered?",
+        "Which courses are available?",
+        "What programs does the college offer?",
+        "What are the courses in the college?",
+        "Tell me about the courses"
+      ],
+      "answer": "The college offers B.Tech, BCA, and MCA programs. B.Tech includes CSE, ECE, and ME in the current knowledge base."
+    },
+    {
+      "id": "cse_course",
+      "questions": [
+        "Tell me about B.Tech CSE",
+        "What is the CSE course?",
+        "How long is B.Tech CSE?",
+        "How many CSE seats are there?"
+      ],
+      "answer": "B.Tech CSE is a 4-year (8-semester) program with 120 seats per year."
+    },
+    {
+      "id": "ece_course",
+      "questions": [
+        "Tell me about B.Tech ECE",
+        "What is the ECE course?",
+        "How long is B.Tech ECE?",
+        "How many ECE seats are there?"
+      ],
+      "answer": "B.Tech ECE is a 4-year (8-semester) program with 60 seats per year."
+    },
+    {
+      "id": "me_course",
+      "questions": [
+        "Tell me about B.Tech ME",
+        "What is the Mechanical Engineering course?",
+        "How long is B.Tech ME?",
+        "How many ME seats are there?"
+      ],
+      "answer": "B.Tech ME is a 4-year (8-semester) program with 60 seats per year."
+    },
+    {
+      "id": "bca_course",
+      "questions": [
+        "Tell me about BCA",
+        "What is the BCA course?",
+        "How long is BCA?",
+        "How many BCA seats are there?"
+      ],
+      "answer": "BCA is a 3-year (6-semester) program with 60 seats per year."
+    },
+    {
+      "id": "mca_course",
+      "questions": [
+        "Tell me about MCA",
+        "What is the MCA course?",
+        "How long is MCA?"
+      ],
+      "answer": "MCA is a 2-year (4-semester) program."
+    },
+    {
+      "id": "admission_overview",
+      "questions": [
+        "How do I apply for admission?",
+        "What is the admission process?",
+        "How can I get admission?",
+        "How do I join the college?",
+        "Tell me about admission"
+      ],
+      "answer": "For 2026-27, admission is open until {admission_deadline}. Eligibility: {admission_eligibility}. The process is: {admission_process}."
+    },
+    {
+      "id": "admission_deadline",
+      "questions": [
+        "What is the admission deadline?",
+        "When is the last date for admission?",
+        "When does admission close?"
+      ],
+      "answer": "The admission deadline listed in the knowledge base is {admission_deadline}."
+    },
+    {
+      "id": "admission_eligibility",
+      "questions": [
+        "What is the admission eligibility?",
+        "What are the eligibility requirements?",
+        "What marks are required for admission?",
+        "Who is eligible for admission?"
+      ],
+      "answer": "Admission eligibility is: {admission_eligibility}."
+    },
+    {
+      "id": "admission_documents",
+      "questions": [
+        "What documents are required for admission?",
+        "Which documents should I submit?",
+        "What certificates are needed for admission?"
+      ],
+      "answer": "The required documents are: {admission_documents}."
+    },
+    {
+      "id": "admission_application",
+      "questions": [
+        "Where do I apply for admission?",
+        "How can I apply online?",
+        "Where is the admission application?"
+      ],
+      "answer": "The admission process says to apply online at hce.edu.in/admissions, submit the required documents, attend counselling, and pay the fees to confirm the seat."
+    },
+    {
+      "id": "fees_btech",
+      "questions": [
+        "What is the B.Tech fee?",
+        "How much is B.Tech tuition?",
+        "What is the first year B.Tech fee?",
+        "How much does B.Tech cost?"
+      ],
+      "answer": "B.Tech tuition is Rs. 85,000/year in Year 1, Rs. 82,000/year in Year 2, Rs. 82,000/year in Year 3, and Rs. 80,000/year in Year 4. Exam fee is Rs. 1,500/semester and bus fee is Rs. 12,000/year if used."
+    },
+    {
+      "id": "fees_bca",
+      "questions": [
+        "What is the BCA fee?",
+        "How much is BCA?",
+        "What is the first year BCA fee?",
+        "How much does BCA cost?"
+      ],
+      "answer": "BCA tuition is Rs. 55,000/year in Year 1, Rs. 52,000/year in Year 2, and Rs. 52,000/year in Year 3."
+    },
+    {
+      "id": "fees_hostel",
+      "questions": [
+        "How much is hostel fee?",
+        "What is the hostel fee?",
+        "How much does hostel cost?"
+      ],
+      "answer": "The hostel fee is Rs. 45,000/year."
+    },
+    {
+      "id": "fees_exam",
+      "questions": [
+        "What is the exam fee?",
+        "How much is the exam fee?",
+        "What is the semester exam fee?"
+      ],
+      "answer": "The exam fee is Rs. 1,500 per semester."
+    },
+    {
+      "id": "fees_bus",
+      "questions": [
+        "What is the bus fee?",
+        "How much is transportation?",
+        "What is the transport fee?"
+      ],
+      "answer": "The bus fee is Rs. 12,000/year."
+    },
+    {
+      "id": "hostel_overview",
+      "questions": [
+        "Is hostel available?",
+        "Tell me about the hostel",
+        "What hostel facilities are available?",
+        "What are the hostel rooms like?"
+      ],
+      "answer": "Hostel rooms are available in 2-sharing and 3-sharing options. Facilities include Wi-Fi, a veg/non-veg mess, laundry, a study room, and 24/7 security. The hostel fee is Rs. 45,000/year."
+    },
+    {
+      "id": "hostel_eligibility",
+      "questions": [
+        "Who is eligible for hostel?",
+        "Can I get hostel accommodation?",
+        "What is the hostel eligibility?"
+      ],
+      "answer": "Hostel eligibility is primarily for students residing more than 25 km from the college, on a first-come first-served basis."
+    },
+    {
+      "id": "hostel_rules",
+      "questions": [
+        "What are the hostel rules?",
+        "Is there a hostel curfew?",
+        "What are the hostel timings?"
+      ],
+      "answer": "Hostel rules include no smoking or alcohol, a 10 PM weekday curfew, and visitors are allowed from 4-6 PM on Sundays."
+    },
+    {
+      "id": "hostel_facilities",
+      "questions": [
+        "Does the hostel have Wi-Fi?",
+        "Does the hostel have a mess?",
+        "Does the hostel have laundry?",
+        "What facilities are provided in hostel?"
+      ],
+      "answer": "Hostel facilities include Wi-Fi, a veg/non-veg mess, laundry, a study room, and 24/7 security."
+    },
+    {
+      "id": "exams",
+      "questions": [
+        "When are the exams?",
+        "When are mid-semester exams?",
+        "When are end semester exams?",
+        "Tell me about the exam schedule"
+      ],
+      "answer": "Mid-semester exams are in October. End-semester exams are in December and May."
+    },
+    {
+      "id": "attendance",
+      "questions": [
+        "How much attendance is required?",
+        "What is the minimum attendance?",
+        "Can I write exams with low attendance?"
+      ],
+      "answer": "A minimum of 75% attendance is required to appear for end-semester exams."
+    },
+    {
+      "id": "revaluation",
+      "questions": [
+        "When can I apply for revaluation?",
+        "What is the revaluation deadline?",
+        "How long do I have to apply for revaluation?"
+      ],
+      "answer": "The revaluation deadline is within 7 days of result publication."
+    },
+    {
+      "id": "supplementary",
+      "questions": [
+        "When are supplementary exams?",
+        "What happens if I fail a subject?",
+        "When is the supplementary exam?"
+      ],
+      "answer": "Supplementary exams are held in July for failed subjects."
+    },
+    {
+      "id": "faculty_cse",
+      "questions": [
+        "Who is the CSE HOD?",
+        "Who is the head of CSE?",
+        "What is the CSE HOD email?"
+      ],
+      "answer": "CSE Department HOD: Dr. Rajesh Sharma (Ph.D., 15 years experience). Email: cse.hod@hce.edu.in."
+    },
+    {
+      "id": "faculty_ece",
+      "questions": [
+        "Who is the ECE HOD?",
+        "Who is the head of ECE?",
+        "What is the ECE HOD email?"
+      ],
+      "answer": "ECE Department HOD: Dr. Priya Menon (Ph.D., 12 years experience). Email: ece.hod@hce.edu.in."
+    },
+    {
+      "id": "faculty_me",
+      "questions": [
+        "Who is the ME HOD?",
+        "Who is the Mechanical Engineering HOD?",
+        "What is the ME HOD email?"
+      ],
+      "answer": "ME Department HOD: Dr. Anil Kumar (Ph.D., 18 years experience). Email: me.hod@hce.edu.in."
+    },
+    {
+      "id": "library",
+      "questions": [
+        "What are the library hours?",
+        "When is the library open?",
+        "Is the library open on Sunday?",
+        "How many books are in the library?"
+      ],
+      "answer": "Library hours are 8:00 AM-6:00 PM on weekdays, 9:00 AM-1:00 PM on Saturday, and closed on Sunday. The library has over 25,000 books and 50+ journal subscriptions."
+    },
+    {
+      "id": "digital_library",
+      "questions": [
+        "Does the college have digital library access?",
+        "Is IEEE available?",
+        "Is ACM available?",
+        "Can students access NPTEL?"
+      ],
+      "answer": "Students can access IEEE, ACM, and NPTEL through the institutional login."
+    },
+    {
+      "id": "events",
+      "questions": [
+        "What events are conducted?",
+        "What are the college events?",
+        "Tell me about college fests",
+        "When is the tech fest?"
+      ],
+      "answer": "The listed events are TechnoVision (February 15-17, 2026), Rhythm (March 10-12, 2026), and HCE Sports Meet (January 20, 2026)."
+    },
+    {
+      "id": "placement",
+      "questions": [
+        "What is the placement rate?",
+        "Tell me about placements",
+        "Which companies recruit?",
+        "What companies visit the college?"
+      ],
+      "answer": "The 2025 batch had an 85% placement rate. Listed recruiting companies include TCS, Infosys, Wipro, and Cognizant; Amazon and Microsoft are listed for internships."
+    },
+    {
+      "id": "internship",
+      "questions": [
+        "Does the college provide internship support?",
+        "Are internships available?",
+        "When can students get internships?"
+      ],
+      "answer": "The Training and Placement Cell assists with summer internships from the 3rd year."
+    },
+    {
+      "id": "scholarship",
+      "questions": [
+        "What scholarships are available?",
+        "Does the college offer scholarships?",
+        "Tell me about scholarships"
+      ],
+      "answer": "The listed scholarships include a merit scholarship, sports quota concession, and an income-based eligibility category."
+    },
+    {
+      "id": "merit_scholarship",
+      "questions": [
+        "How can I get a merit scholarship?",
+        "What is the merit scholarship?",
+        "What marks are needed for merit scholarship?"
+      ],
+      "answer": "Students with 90% or more in 12th are eligible for a 25% fee waiver in the first year."
+    },
+    {
+      "id": "sports_scholarship",
+      "questions": [
+        "Is there a sports scholarship?",
+        "Who is eligible for sports fee concession?"
+      ],
+      "answer": "State or national level players with the relevant certificate are eligible for sports quota fee concession."
+    },
+    {
+      "id": "scholarship_income",
+      "questions": [
+        "Is there an income-based scholarship?",
+        "What is the income eligibility for scholarship?"
+      ],
+      "answer": "The knowledge base lists an income eligibility category for families with income below 2.5 LPA."
+    },
+    {
+      "id": "campus_facilities",
+      "questions": [
+        "What facilities are available on campus?",
+        "Tell me about campus facilities",
+        "What are the college facilities?"
+      ],
+      "answer": "Facilities include free campus Wi-Fi, computer and department labs, AI/ML lab, library, cafeteria, medical room, hostel, NSS/NCC, and anti-ragging support."
+    },
+    {
+      "id": "wifi",
+      "questions": [
+        "Is Wi-Fi available?",
+        "Does the college have campus Wi-Fi?",
+        "Is Wi-Fi free?"
+      ],
+      "answer": "Free campus Wi-Fi is available for all registered students."
+    },
+    {
+      "id": "labs",
+      "questions": [
+        "What labs are available?",
+        "Does the college have an AI lab?",
+        "Tell me about the laboratories"
+      ],
+      "answer": "Laboratory facilities include computer labs, an electronics lab, a mechanical workshop, and an AI/ML lab."
+    },
+    {
+      "id": "cafeteria",
+      "questions": [
+        "Is there a cafeteria?",
+        "What are the cafeteria timings?",
+        "Is food available on campus?"
+      ],
+      "answer": "The cafeteria is open from 8 AM to 7 PM and provides affordable meals."
+    },
+    {
+      "id": "medical",
+      "questions": [
+        "Is there a medical facility?",
+        "Does the college have a medical room?",
+        "What happens in a medical emergency?"
+      ],
+      "answer": "The campus has a medical room with a nurse and a tie-up with City Hospital for emergencies."
+    },
+    {
+      "id": "anti_ragging",
+      "questions": [
+        "Is there an anti-ragging policy?",
+        "How does the college handle ragging?",
+        "What is the anti-ragging helpline?"
+      ],
+      "answer": "The college has a zero-tolerance anti-ragging policy and a 24/7 helpline: +91-9876543299."
+    },
+    {
+      "id": "nss_ncc",
+      "questions": [
+        "Does the college have NSS?",
+        "Does the college have NCC?",
+        "Are NSS and NCC available?"
+      ],
+      "answer": "NSS and NCC units are active, and participation earns activity points."
+    },
+    {
+      "id": "contact",
+      "questions": [
+        "How can I contact the college?",
+        "What is the college phone number?",
+        "What is the college email?",
+        "Where is the college located?",
+        "What is the college address?"
+      ],
+      "answer": "You can contact {college_name} at {phone} or {email}. Helpdesk hours are {helpdesk_hours}. Address: {address}."
+    }
+  ],
+  "response_policy": {
+    "priority": [
+      "faq",
+      "responses",
+      "facts",
+      "fallback"
+    ],
+    "fallback_rule": "Use the fallback only when no relevant FAQ, response template, or fact matches the user's question. Do not use the fallback when a relevant fact is available."
   }
 }
