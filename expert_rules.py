@@ -431,6 +431,30 @@ class ExpertSystem:
                 "Electronics and Communication Engineering (ECE), and "
                 "Mechanical Engineering (ME)."
             )
+        # Direct answers for general course questions
+    if category == "courses":
+        query_text = normalized.lower()
+
+    # General course / branch questions
+    if (
+        "what course" in query_text
+        or "which course" in query_text
+        or "course offered" in query_text
+        or "courses offered" in query_text
+        or "which branch" in query_text
+        or "what branch" in query_text
+        or "branches available" in query_text
+        or "program offered" in query_text
+        or "programs offered" in query_text
+        or "degree offered" in query_text
+    ):
+        return (
+            "courses_overview",
+            "Horizon College of Engineering offers B.Tech, BCA, and MCA programs. "
+            "The B.Tech branches include Computer Science and Engineering (CSE), "
+            "Electronics and Communication Engineering (ECE), and "
+            "Mechanical Engineering (ME)."
+        )
         # 1. First try the expanded FAQ knowledge base.
         faq_result = self._faq_match(tokens, category, normalized)
         if faq_result:
@@ -504,10 +528,24 @@ class ExpertSystem:
             "contact": ["contact", "phone", "email", "helpdesk", "address"],
             "placement": ["placement", "company", "internship", "recruit"],
             "scholarship": ["scholarship", "merit", "waiver"],
-            "courses": [
-                "course", "btech", "bca", "mca", "cse",
-                "ece", "mechanical", "program", "offer",
-                "branch", "degree"
+          "courses": [
+                "course",
+                "courses",
+                "btech",
+                "bca",
+                "mca",
+                "cse",
+                "ece",
+                "mechanical",
+                "program",
+                "programs",
+                "offer",
+                "offered",
+                "branch",
+                "branches",
+                "degree",
+                "degrees",
+                "study"
             ],
         }
 
