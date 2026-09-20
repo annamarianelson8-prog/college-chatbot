@@ -77,7 +77,12 @@ class ResponsePlanner:
             plan_steps.append(f"  Eligibility result: {inference_result['eligible']}")
 
         plan_steps.append("Step 6: Expert System selects response template")
-        template_id, response = self.expert.match_rule(tokens, category, inference_result)
+        template_id, response = self.expert.match_rule(
+                tokens,
+                category,
+                inference_result,
+                normalized,
+            )
 
         q_value = self.learner.rl.get_q(category, template_id)
         plan_steps.append(f"Step 7: RL Q-value for ({category}, {template_id}) = {q_value}")
