@@ -416,7 +416,21 @@ class ExpertSystem:
         normalized: str = "",
     ) -> tuple[str, str]:
         inference = inference or {}
-
+        # Direct course response
+        if category == "courses":
+            course_response = self.kb.get("responses", {}).get("courses_overview")
+        
+        if course_response:
+                return "courses_overview", self._render_text(course_response)
+        
+            # Backup answer if courses_overview is missing from the KB
+         return (
+                "courses_overview",
+                "The college offers B.Tech, BCA, and MCA programs. "
+                "The B.Tech programs include Computer Science and Engineering (CSE), "
+                "Electronics and Communication Engineering (ECE), and "
+                "Mechanical Engineering (ME)."
+            )
         # 1. First try the expanded FAQ knowledge base.
         faq_result = self._faq_match(tokens, category, normalized)
         if faq_result:
