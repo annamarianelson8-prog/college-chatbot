@@ -1,0 +1,556 @@
+{
+  "static_faq_intents": [
+    {
+      "intent": "faq_admissions_0",
+      "category": "Admissions",
+      "training_phrases": [
+        "How do I apply for admission to the college?",
+        "What's the process to apply for admission to the college?"
+      ],
+      "response": "You can apply online through the college admissions portal by filling in your personal details, academic records, and uploading the required documents along with the application fee."
+    },
+    {
+      "intent": "faq_admissions_1",
+      "category": "Admissions",
+      "training_phrases": [
+        "What is the eligibility criteria for B.Tech admission?",
+        "Tell me the eligibility criteria for B.Tech admission?"
+      ],
+      "response": "Candidates must have completed 10+2 with Physics, Chemistry, and Mathematics with a minimum aggregate of 50% and a valid entrance exam score."
+    },
+    {
+      "intent": "faq_admissions_2",
+      "category": "Admissions",
+      "training_phrases": [
+        "Is there a management quota available?"
+      ],
+      "response": "Yes, a limited number of seats are reserved under the management quota in each department. Contact the admissions office for details."
+    },
+    {
+      "intent": "faq_fees_3",
+      "category": "Fees",
+      "training_phrases": [
+        "How can I pay my semester fees?",
+        "What's the way to pay my semester fees?"
+      ],
+      "response": "Semester fees can be paid online via the student portal using net banking, UPI, or card, or offline at the accounts office."
+    },
+    {
+      "intent": "faq_fees_4",
+      "category": "Fees",
+      "training_phrases": [
+        "What happens if I miss the fee payment deadline?"
+      ],
+      "response": "A late fee penalty will be applied, and continued non-payment may result in restricted access to exams or the library. Please contact the accounts office if you need an extension."
+    },
+    {
+      "intent": "faq_fees_5",
+      "category": "Fees",
+      "training_phrases": [
+        "Can I pay my fees in installments?"
+      ],
+      "response": "Yes, installment options are available for tuition fees on request. Please submit an application to the accounts office."
+    },
+    {
+      "intent": "faq_courses_6",
+      "category": "Courses",
+      "training_phrases": [
+        "How do I check my enrolled courses?",
+        "What's the process to check my enrolled courses?"
+      ],
+      "response": "You can view your enrolled courses under the 'Academics' section of the student portal."
+    },
+    {
+      "intent": "faq_courses_7",
+      "category": "Courses",
+      "training_phrases": [
+        "Can I change my elective course after enrollment?"
+      ],
+      "response": "Elective changes are allowed only during the add/drop period at the start of the semester, subject to seat availability."
+    },
+    {
+      "intent": "faq_courses_8",
+      "category": "Courses",
+      "training_phrases": [
+        "How many credits do I need to graduate?"
+      ],
+      "response": "The total credit requirement varies by department, typically between 160 and 180 credits across 8 semesters. Check your department curriculum for exact numbers."
+    },
+    {
+      "intent": "faq_exams_9",
+      "category": "Exams",
+      "training_phrases": [
+        "When will the exam timetable be released?"
+      ],
+      "response": "The exam timetable is usually published on the notice board and student portal two to three weeks before the exams begin."
+    },
+    {
+      "intent": "faq_exams_10",
+      "category": "Exams",
+      "training_phrases": [
+        "What is the minimum attendance required to sit for exams?",
+        "Tell me the minimum attendance required to sit for exams?"
+      ],
+      "response": "Students must maintain a minimum of 75% attendance in each course to be eligible to appear for the semester exams."
+    },
+    {
+      "intent": "faq_exams_11",
+      "category": "Exams",
+      "training_phrases": [
+        "How can I apply for revaluation of my answer script?",
+        "What's the way to apply for revaluation of my answer script?"
+      ],
+      "response": "Revaluation requests can be submitted online through the examination portal within 10 days of result declaration, along with the prescribed fee."
+    },
+    {
+      "intent": "faq_exams_12",
+      "category": "Exams",
+      "training_phrases": [
+        "Where can I download my hall ticket?"
+      ],
+      "response": "Hall tickets are available for download from the student portal a few days before the exam, once fee dues are cleared."
+    },
+    {
+      "intent": "faq_library_13",
+      "category": "Library",
+      "training_phrases": [
+        "What are the library timings?",
+        "Tell me about the library timings?"
+      ],
+      "response": "The central library is open from 8:30 AM to 8:00 PM on weekdays and 9:00 AM to 5:00 PM on Saturdays. Timings are extended during exam weeks."
+    },
+    {
+      "intent": "faq_library_14",
+      "category": "Library",
+      "training_phrases": [
+        "How many books can I borrow at a time?"
+      ],
+      "response": "Undergraduate students can borrow up to 3 books at a time for a period of 14 days, which can be renewed if not reserved by another student."
+    },
+    {
+      "intent": "faq_library_15",
+      "category": "Library",
+      "training_phrases": [
+        "What is the fine for a late book return?",
+        "Tell me the fine for a late book return?"
+      ],
+      "response": "A fine of ₹5 per day is charged for each day a book is returned after the due date."
+    },
+    {
+      "intent": "faq_library_16",
+      "category": "Library",
+      "training_phrases": [
+        "How do I reserve a book that is currently unavailable?",
+        "What's the process to reserve a book that is currently unavailable?"
+      ],
+      "response": "You can place a reservation for an unavailable book through the library management system, and you'll be notified once it's returned."
+    },
+    {
+      "intent": "faq_hostel_17",
+      "category": "Hostel",
+      "training_phrases": [
+        "How do I apply for hostel accommodation?",
+        "What's the process to apply for hostel accommodation?"
+      ],
+      "response": "Hostel applications can be submitted online through the student portal during the admission or start-of-year registration period, subject to availability."
+    },
+    {
+      "intent": "faq_hostel_18",
+      "category": "Hostel",
+      "training_phrases": [
+        "What are the hostel fees?",
+        "Tell me about the hostel fees?"
+      ],
+      "response": "Hostel fees typically range from ₹25,000 to ₹30,000 per semester depending on room type, and are payable along with tuition fees."
+    },
+    {
+      "intent": "faq_hostel_19",
+      "category": "Hostel",
+      "training_phrases": [
+        "Can I choose my roommate?"
+      ],
+      "response": "Roommate preferences can be submitted during the application, and the hostel administration will try to accommodate requests based on availability."
+    },
+    {
+      "intent": "faq_placements_20",
+      "category": "Placements",
+      "training_phrases": [
+        "How do I register for campus placements?",
+        "What's the process to register for campus placements?"
+      ],
+      "response": "You can register with the Training and Placement Cell through the placement portal by updating your resume and academic details."
+    },
+    {
+      "intent": "faq_placements_21",
+      "category": "Placements",
+      "training_phrases": [
+        "What is the eligibility criteria for placements?",
+        "Tell me the eligibility criteria for placements?"
+      ],
+      "response": "Generally, students need a minimum CGPA of 6.0 with no active backlogs, though criteria vary by recruiting company."
+    },
+    {
+      "intent": "faq_placements_22",
+      "category": "Placements",
+      "training_phrases": [
+        "Which companies visit the college for recruitment?"
+      ],
+      "response": "Companies such as TCS, Infosys, Wipro, Accenture, Cognizant, and several others regularly visit for campus placements."
+    },
+    {
+      "intent": "faq_timetable_23",
+      "category": "Timetable",
+      "training_phrases": [
+        "How can I check my class timetable?",
+        "What's the way to check my class timetable?"
+      ],
+      "response": "Your class timetable is available under the 'Timetable' section of the student portal, filtered by your department and semester."
+    },
+    {
+      "intent": "faq_timetable_24",
+      "category": "Timetable",
+      "training_phrases": [
+        "What do I do if there's a clash in my timetable?"
+      ],
+      "response": "Report timetable clashes to your department coordinator, who will help resolve scheduling conflicts."
+    },
+    {
+      "intent": "faq_faculty_25",
+      "category": "Faculty",
+      "training_phrases": [
+        "How do I contact my course instructor?",
+        "What's the process to contact my course instructor?"
+      ],
+      "response": "Faculty contact details, including email and office hours, are listed on the department page and faculty directory."
+    },
+    {
+      "intent": "faq_faculty_26",
+      "category": "Faculty",
+      "training_phrases": [
+        "What are the office hours for faculty consultations?",
+        "Tell me about the office hours for faculty consultations?"
+      ],
+      "response": "Office hours vary by faculty member and are listed in the faculty directory; most are available a few hours each weekday."
+    },
+    {
+      "intent": "faq_events_27",
+      "category": "Events",
+      "training_phrases": [
+        "How do I find out about upcoming college events?",
+        "What's the process to find out about upcoming college events?"
+      ],
+      "response": "Upcoming events are announced on the notice board, college website, and official social media handles."
+    },
+    {
+      "intent": "faq_events_28",
+      "category": "Events",
+      "training_phrases": [
+        "How can I register for a college event or fest?",
+        "What's the way to register for a college event or fest?"
+      ],
+      "response": "Registration is usually done through the event's online form linked in the announcement, or at the respective department desk."
+    },
+    {
+      "intent": "faq_general_29",
+      "category": "General",
+      "training_phrases": [
+        "How do I reset my student portal password?",
+        "What's the process to reset my student portal password?"
+      ],
+      "response": "Click on 'Forgot Password' on the login page and follow the instructions sent to your registered email to reset it."
+    },
+    {
+      "intent": "faq_general_30",
+      "category": "General",
+      "training_phrases": [
+        "Where is the college located?"
+      ],
+      "response": "The college is located in Thiruvananthapuram, Kerala. Exact directions and a map are available on the college website's Contact page."
+    },
+    {
+      "intent": "faq_general_31",
+      "category": "General",
+      "training_phrases": [
+        "How do I get a bonafide certificate?",
+        "What's the process to get a bonafide certificate?"
+      ],
+      "response": "Bonafide certificates can be requested through the student portal or the administrative office, and are typically issued within 2-3 working days."
+    },
+    {
+      "intent": "faq_general_32",
+      "category": "General",
+      "training_phrases": [
+        "How do I contact the college administration?",
+        "What's the process to contact the college administration?"
+      ],
+      "response": "You can reach the administrative office via the phone numbers and email listed on the college's official Contact Us page."
+    },
+    {
+      "intent": "faq_general_33",
+      "category": "General",
+      "training_phrases": [
+        "What is my CGPA and how is it calculated?",
+        "Tell me my CGPA and how is it calculated?"
+      ],
+      "response": "Your CGPA is available on the student portal under academic records. It is calculated as the credit-weighted average of grade points earned across all completed semesters."
+    },
+    {
+      "intent": "faq_general_34",
+      "category": "General",
+      "training_phrases": [
+        "How do I apply for a transfer certificate?",
+        "What's the process to apply for a transfer certificate?"
+      ],
+      "response": "Transfer certificate applications must be submitted to the administrative office along with clearance from the library, hostel, and accounts departments."
+    },
+    {
+      "intent": "faq_scholarships_35",
+      "category": "Scholarships",
+      "training_phrases": [
+        "What scholarships are available for students?"
+      ],
+      "response": "Merit-based, need-based, and government scholarships are available. Details and application forms are posted on the scholarships section of the college website."
+    },
+    {
+      "intent": "faq_scholarships_36",
+      "category": "Scholarships",
+      "training_phrases": [
+        "How do I apply for a scholarship?",
+        "What's the process to apply for a scholarship?"
+      ],
+      "response": "Scholarship applications are submitted online, along with supporting documents such as income certificates and academic transcripts, before the announced deadline."
+    },
+    {
+      "intent": "faq_grievance_37",
+      "category": "Grievance",
+      "training_phrases": [
+        "How do I file a complaint or grievance?",
+        "What's the process to file a complaint or grievance?"
+      ],
+      "response": "Grievances can be submitted through the online Student Grievance Redressal Portal or in writing to the Grievance Cell."
+    },
+    {
+      "intent": "faq_grievance_38",
+      "category": "Grievance",
+      "training_phrases": [
+        "Who do I contact for ragging-related complaints?"
+      ],
+      "response": "Ragging complaints should be reported immediately to the Anti-Ragging Committee or the 24x7 helpline listed on the college website."
+    },
+    {
+      "intent": "faq_id_card_39",
+      "category": "ID Card",
+      "training_phrases": [
+        "What do I do if I lose my student ID card?"
+      ],
+      "response": "Report the loss to the administrative office and apply for a duplicate ID card by paying the applicable fee."
+    },
+    {
+      "intent": "faq_transport_40",
+      "category": "Transport",
+      "training_phrases": [
+        "Is college bus transport available?"
+      ],
+      "response": "Yes, the college operates bus services on multiple routes. Route details and fees are available at the transport office."
+    }
+  ],
+  "dynamic_db_intents": [
+    {
+      "intent": "check_attendance",
+      "category": "Academics",
+      "training_phrases": [
+        "What is my attendance in {course}?",
+        "Show my attendance percentage",
+        "How many classes have I missed in {course}?",
+        "Am I eligible to sit for exams based on attendance?"
+      ],
+      "requires_entities": [
+        "student_id or roll_no",
+        "course (optional)"
+      ],
+      "sql_template": "SELECT c.course_name, a.classes_held, a.classes_attended, a.attendance_pct FROM attendance_summary a JOIN courses c ON a.course_id=c.course_id WHERE a.student_id = ?;"
+    },
+    {
+      "intent": "check_fee_status",
+      "category": "Fees",
+      "training_phrases": [
+        "What is my fee payment status?",
+        "How much fee do I owe?",
+        "Have I paid my semester fees?",
+        "Show my pending dues"
+      ],
+      "requires_entities": [
+        "student_id or roll_no"
+      ],
+      "sql_template": "SELECT academic_year, semester, total_fee, amount_paid, payment_status, due_date FROM fees WHERE student_id = ?;"
+    },
+    {
+      "intent": "check_timetable",
+      "category": "Timetable",
+      "training_phrases": [
+        "What is my class schedule today?",
+        "Show my timetable for {day}",
+        "When is my {course} class?",
+        "What classes do I have on Monday?"
+      ],
+      "requires_entities": [
+        "student_id or roll_no",
+        "day (optional)"
+      ],
+      "sql_template": "SELECT c.course_name, t.day_of_week, t.start_time, t.end_time, t.room_no FROM timetable t JOIN courses c ON t.course_id=c.course_id JOIN enrollments e ON e.course_id=c.course_id WHERE e.student_id = ?;"
+    },
+    {
+      "intent": "check_exam_schedule",
+      "category": "Exams",
+      "training_phrases": [
+        "When is my next exam?",
+        "Show my exam timetable",
+        "What time is the {course} final exam?",
+        "Where is my exam hall for {course}?"
+      ],
+      "requires_entities": [
+        "student_id or roll_no",
+        "course (optional)"
+      ],
+      "sql_template": "SELECT c.course_name, ex.exam_type, ex.exam_date, ex.start_time, ex.room_no FROM exams ex JOIN courses c ON ex.course_id=c.course_id JOIN enrollments e ON e.course_id=c.course_id WHERE e.student_id = ?;"
+    },
+    {
+      "intent": "check_cgpa_grades",
+      "category": "Academics",
+      "training_phrases": [
+        "What is my current CGPA?",
+        "Show my grades for last semester",
+        "What grade did I get in {course}?"
+      ],
+      "requires_entities": [
+        "student_id or roll_no"
+      ],
+      "sql_template": "SELECT c.course_name, e.grade, e.status FROM enrollments e JOIN courses c ON e.course_id=c.course_id WHERE e.student_id = ?;"
+    },
+    {
+      "intent": "check_book_availability",
+      "category": "Library",
+      "training_phrases": [
+        "Is the book {book_title} available in the library?",
+        "How many copies of {book_title} are there?",
+        "Check availability of {book_title}"
+      ],
+      "requires_entities": [
+        "book_title"
+      ],
+      "sql_template": "SELECT title, author, available_copies, shelf_location FROM library_books WHERE title LIKE ?;"
+    },
+    {
+      "intent": "check_my_borrowed_books",
+      "category": "Library",
+      "training_phrases": [
+        "What books have I borrowed?",
+        "Show my issued books",
+        "Do I have any overdue books?"
+      ],
+      "requires_entities": [
+        "student_id or roll_no"
+      ],
+      "sql_template": "SELECT b.title, bi.issue_date, bi.due_date, bi.status, bi.fine_amount FROM book_issues bi JOIN library_books b ON bi.book_id=b.book_id WHERE bi.student_id = ?;"
+    },
+    {
+      "intent": "check_faculty_contact",
+      "category": "Faculty",
+      "training_phrases": [
+        "Who teaches {course}?",
+        "What is the email of {faculty_name}?",
+        "Give me contact details of my {course} instructor"
+      ],
+      "requires_entities": [
+        "course or faculty_name"
+      ],
+      "sql_template": "SELECT f.first_name, f.last_name, f.email, f.office_room, f.office_hours FROM faculty f JOIN courses c ON c.faculty_id=f.faculty_id WHERE c.course_name LIKE ?;"
+    },
+    {
+      "intent": "check_upcoming_events",
+      "category": "Events",
+      "training_phrases": [
+        "What events are happening this month?",
+        "Any upcoming college fests?",
+        "Show upcoming workshops"
+      ],
+      "requires_entities": [],
+      "sql_template": "SELECT event_name, event_type, event_date, venue FROM events WHERE event_date >= date('now') ORDER BY event_date LIMIT 10;"
+    },
+    {
+      "intent": "check_notices",
+      "category": "General",
+      "training_phrases": [
+        "Any new notices?",
+        "Show latest announcements",
+        "Are there any holiday notices?"
+      ],
+      "requires_entities": [],
+      "sql_template": "SELECT title, category, posted_date, content FROM notices ORDER BY posted_date DESC LIMIT 10;"
+    },
+    {
+      "intent": "check_hostel_room",
+      "category": "Hostel",
+      "training_phrases": [
+        "What is my hostel room number?",
+        "Which hostel am I allocated to?",
+        "Show my room details"
+      ],
+      "requires_entities": [
+        "student_id or roll_no"
+      ],
+      "sql_template": "SELECT hr.hostel_name, hr.room_no, hr.room_type FROM hostel_allocations ha JOIN hostel_rooms hr ON ha.room_id=hr.room_id WHERE ha.student_id = ? AND ha.status='Active';"
+    }
+  ],
+  "scaffolding_intents": [
+    {
+      "intent": "greet",
+      "category": "Smalltalk",
+      "training_phrases": [
+        "Hi",
+        "Hello",
+        "Hey there",
+        "Good morning",
+        "Hi Assistant"
+      ],
+      "response": "Hello! I'm your college assistant. I can help with admissions, fees, exams, timetable, library, hostel, placements and more. What would you like to know?"
+    },
+    {
+      "intent": "goodbye",
+      "category": "Smalltalk",
+      "training_phrases": [
+        "Bye",
+        "See you later",
+        "Thanks, bye",
+        "That's all for now"
+      ],
+      "response": "Glad I could help! Feel free to come back anytime you have questions."
+    },
+    {
+      "intent": "thanks",
+      "category": "Smalltalk",
+      "training_phrases": [
+        "Thank you",
+        "Thanks a lot",
+        "Thanks for the help"
+      ],
+      "response": "You're welcome! Let me know if there's anything else you need."
+    },
+    {
+      "intent": "fallback",
+      "category": "Smalltalk",
+      "training_phrases": [],
+      "response": "I'm sorry, I didn't quite understand that. Could you rephrase your question, or ask about admissions, fees, exams, timetable, library, hostel, or placements?"
+    },
+    {
+      "intent": "human_handoff",
+      "category": "Smalltalk",
+      "training_phrases": [
+        "I want to talk to a person",
+        "Connect me to admin office",
+        "This isn't helping, get me a human"
+      ],
+      "response": "Sure, I'll connect you with the college administration. You can also reach them directly via the Contact Us page."
+    }
+  ]
+}
