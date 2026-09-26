@@ -1,3 +1,5 @@
+https://college-chatbot-9oqu.onrender.com/
+
 # Intelligent College Assistant Chatbot
 
 Zero-cost AI chatbot for college websites. Implements BFS, A*, Forward/Backward Chaining, Decision Tree, Reinforcement Learning, Expert System rules, and classical planning — aligned with S5 Artificial Intelligence syllabus.
